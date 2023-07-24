@@ -1,0 +1,257 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+:root
+{
+--blue:#1D06A7;
+--verde:  #26CC4B;
+--verde-agua:  #ADFF28;
+--bg-contact: #1687A0;
+--rojo : #FF1B1B;
+--bg-clientes: #3F4E62;
+--bg-dkill:  #9022FF;
+--bg-barra: #57EFF9;
+
+
+
+;
+
+
+
+}
+
+#content{
+    width: 960px;
+    margin: 0 auto;
+    background-color: antiquewhite;
+}
+body{
+    font-family: sans-serif;
+}
+.portada{
+    height: 525px;
+    background: url(img/Mask\ Group.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.portada h1 {
+    color: #fff;
+    padding: 53px;
+    line-height: 54px;
+    font-size: 64px;
+    font-weight: 700;
+    text-align: center;
+
+}
+.portada h4 {
+    display: inline-block;
+    width: 367px;
+    height: 117px;
+    color: #fff;
+    padding: 5px;
+    background-color: hsla(223, 99%, 72%, 0.5);
+    border-radius: 10px;
+    position: absolute;
+    bottom: 153px;
+    left: 75px;
+    padding: 20px;
+    font-size:32px;
+    line-height: 40px;
+    
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+    line-height: 42px;
+    padding: 20px;
+    font-weight: 700;
+}
+.sobre-mi{
+    height: 360px;
+    background-color: #7299FE;
+     ;
+     padding: 0 41px;
+}
+.sobre-mi p{
+    line-height: 24px;
+    font-size: 14px;
+    color: #fff;
+}
+.sobre-mi h2 {color: var(--blue);}
+.sobre-mi button{
+    background-color: #D16FFF;
+    padding: 15px 50px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 2px 8px #00000038
+    ;
+    font-weight: 700;
+    font-size: 16px ;
+    color: #fff;
+    margin-top: 30px;
+    
+}
+.sobre-mi button:hover{
+    cursor: pointer;
+    background-color: #9022FF;
+    
+}
+
+.skill{
+    height: 360px;
+    background-color: var(--bg-dkill);
+    padding: 0 50px;
+    
+}
+
+.skill h2{
+
+    color: var(--verde)
+}
+
+.skill .mis-skill{
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  grid-gap: 20px;
+  color: #fff;
+  
+  
+}
+.bar{
+    width: 400px;
+}
+.bar .load{
+    height: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 15px 0;
+    
+    }
+.bar .load .l1 {
+    background-color: var(--bg-barra);
+    height: 20px;
+    border-radius: 10px;
+    width: 319px;    
+}    
+.bar .load .l2{
+    background-color: var(--bg-barra);
+    height: 20px;
+    border-radius: 10px;
+    width: 64px;    
+}    
+.bar .load .l3{
+    background-color: var(--bg-barra);
+    height: 20px;
+    border-radius: 10px;
+    width: 215px;    
+}    
+.bar .load .l4{
+    background-color: var(--bg-barra);
+    height: 20px;
+    border-radius: 10px;
+    width: 330px;    
+}    
+
+.bar .load .l5{
+    background-color: var(--bg-barra);
+    height: 20px;
+    border-radius: 10px;
+    width: 360px;    
+}    
+
+.bar .load .l6{
+    background-color: var(--bg-barra);
+    height: 20px;
+    border-radius: 10px;
+    width: 185px;    
+}    
+
+
+
+
+
+
+.portafolio{
+    height: 360px;
+    background-color:  #FFD233;
+    padding: 0 150px;
+}
+.portafolio h2 {
+    color: var(--verde);
+    
+}
+
+.portafolio .porta-item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.portafolio .porta-item img{
+    margin: 5px;
+    width: 140px;
+}
+.clientes{
+    background-color: var(--bg-clientes);
+height: 250px;
+}
+.clientes h2 {
+    color: var(--verde);
+    
+}
+.clientes .porta-clientes {
+    display: flex;
+    justify-content: center;
+   
+}
+
+.clientes .porta-clientes img {
+    width: 178px;
+   margin: 10px;
+}
+.contacto{
+    height: 560px;
+    background-color: var(--bg-contact);
+    padding: 0 100px;
+
+}
+.contacto h2 {
+    color: var(--rojo);
+}
+.contacto form input{
+     line-height: 50px;
+     margin: 15px;
+     padding-left: 10px;
+    
+
+}
+.contacto form textarea{
+  grid-column: 1 / span 2;
+  margin: 0 15px;
+          
+}
+.contacto form {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   
+}
+
+.contacto form button{
+    grid-column: 1/-1;
+    justify-self: center;
+    margin: 0 15px;
+    
+    padding: 15px 50px;
+    background-color:  #233451;
+    border: none;
+    color:#fff;
+    margin-top: 30px;
+
+
+           
+  }
+  .contacto form button:hover{
+   background-color: #3F4E62;
+   cursor: pointer;
+           
+  }
